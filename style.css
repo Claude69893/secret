@@ -1,0 +1,114 @@
+
+.button1 {
+    margin-right: 10%; /* Add some space between buttons */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    animation: gp 5s backwards infinite;
+}
+
+.button2 {
+    margin-top: 10px;
+    margin-right: 0; 
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    animation: gl 5s infinite;
+
+}
+.button3 {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    animation: glow 5s infinite;
+   
+}
+.container {
+text-align: center;
+margin-top: 4%;
+font-size: 5%;
+transform: scale(1.5);
+}
+@keyframes glow {
+    from {background-color: #4CAF50;}
+    to { background-color: red;}
+}
+
+@keyframes gl {
+    from {background-color: red;}
+    to { background-color: blue;}
+}
+@keyframes gp {
+    from {background-color: yellow;}
+    to { background-color:  green;}
+}
+body {
+background-color: palevioletred;
+animation: bg 9s infinite;
+}
+
+@keyframes bg {
+    from {background-color: rgb(226, 58, 114);}
+    to {background-color: rgb(rgb(216, 86, 86), green, blue);}
+}
+
+h1 {
+text-align: center;
+border: black;
+font-family: 'Times New Roman', Times, serif;
+font-size: 48px ;
+justify-content: center;
+background-color: beige;
+margin-top: 5%;
+border-radius: 20px 60px;
+border-style: solid;
+
+}
+header {
+background-color: lightgray;
+padding: 3%;
+margin:0% ;
+top: 0%;
+left: 0;
+border: black;
+position: fixed;
+width: 100%;
+border-style: solid;
+}
+
+span {
+font-size: 35px;
+text-align: center;
+margin-top: -1px;
+border-color: black;
+border-style: solid;
+animation: name 2s infinite;
+}
+@keyframes name {
+    0% {transform: rotate(45deg);
+    }
+    40% { transform: rotate(80deg);
+    }
+    
+   
+}
